@@ -27,7 +27,7 @@ search/query parameters.
 
 ```js
 import * as React from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams } from '@thinman/react-router-dom';
 
 function SearchPage() {
   let queryRef = React.useRef();
@@ -71,7 +71,7 @@ browsers if we can.
 
 ```js
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from '@thinman/react-router-dom';
 
 import qs from 'query-string';
 
@@ -79,10 +79,7 @@ import qs from 'query-string';
 // string here so we don't have to re-parse it every time the hook is used.
 function useQuery() {
   let location = useLocation();
-  return React.useMemo(
-    () => qs.parse(location.search),
-    [location.search]
-  );
+  return React.useMemo(() => qs.parse(location.search), [location.search]);
 }
 
 // Then, assuming a <SearchResults> element is rendered at a URL like
@@ -90,8 +87,6 @@ function useQuery() {
 function SearchResults() {
   let { q } = useQuery();
 
-  return (
-    <p>The query is "{q}".</p>
-  );
+  return <p>The query is "{q}".</p>;
 }
 ```

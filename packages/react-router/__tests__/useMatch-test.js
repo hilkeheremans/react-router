@@ -1,6 +1,11 @@
 import * as React from 'react';
 import { create as createTestRenderer } from 'react-test-renderer';
-import { MemoryRouter as Router, Routes, Route, useMatch } from 'react-router';
+import {
+  MemoryRouter as Router,
+  Routes,
+  Route,
+  useMatch
+} from '@thinman/react-router';
 
 describe('useMatch', () => {
   describe('when the path matches the current URL', () => {

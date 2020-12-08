@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
   useLocation
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('useLocation', () => {
   it('returns the current location object', () => {

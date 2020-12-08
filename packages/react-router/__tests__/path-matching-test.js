@@ -1,4 +1,4 @@
-import { matchRoutes } from 'react-router';
+import { matchRoutes } from '@thinman/react-router';
 
 describe('path matching', () => {
   function pickPaths(routes, pathname) {

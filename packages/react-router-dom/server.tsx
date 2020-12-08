@@ -7,7 +7,7 @@ import {
   createPath,
   parsePath
 } from 'history';
-import { Router } from 'react-router-dom';
+import { Router } from '@thinman/react-router-dom';
 
 export interface StaticRouterProps {
   children?: React.ReactNode;

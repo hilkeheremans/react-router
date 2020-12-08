@@ -170,7 +170,7 @@ ReactDOM.render(
 );
 
 // React Router v6
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from '@thinman/react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -194,7 +194,7 @@ import { Router } from '@reach/router';
 </Router>;
 
 // React Router v6
-import { Routes } from 'react-router-dom';
+import { Routes } from '@thinman/react-router-dom';
 
 <Routes>
   <Home path="/" />
@@ -284,7 +284,7 @@ Alternatively, if you want to allow for out-dated links, _and you realize you ne
 
 ```jsx
 import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from '@thinman/react-router-dom';
 
 function Redirect({ to }) {
   let navigate = useNavigate();
@@ -325,7 +325,7 @@ function SomeCustomLink() {
 }
 
 // React Router
-import { useLocation, useMatch } from 'react-router-dom';
+import { useLocation, useMatch } from '@thinman/react-router-dom';
 
 function SomeCustomLink() {
   let to = '/some/where/cool';

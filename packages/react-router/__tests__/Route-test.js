@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { create as createTestRenderer } from 'react-test-renderer';
-import { MemoryRouter as Router, Routes, Route } from 'react-router';
+import { MemoryRouter as Router, Routes, Route } from '@thinman/react-router';
 
 describe('A <Route>', () => {
   it('renders its `element` prop', () => {

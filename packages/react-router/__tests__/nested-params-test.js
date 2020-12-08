@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   useParams
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('nested routes', () => {
   it('gets all params from parent routes', () => {

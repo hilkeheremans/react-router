@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   useSearchParams
-} from 'react-router-dom';
+} from '@thinman/react-router-dom';
 
 describe('useSearchParams', () => {
   function SearchPage() {

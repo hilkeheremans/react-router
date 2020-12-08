@@ -26,7 +26,7 @@ export default function() {
         'prop-types',
         'react',
         'react-native',
-        'react-router'
+        '@thinman/react-router'
       ],
       plugins: [
         tsc(),

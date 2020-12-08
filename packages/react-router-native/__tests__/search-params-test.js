@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   useSearchParams
-} from 'react-router-native';
+} from '@thinman/react-router-native';
 
 describe('useSearchParams', () => {
   function SearchForm({ children, onSubmit }) {

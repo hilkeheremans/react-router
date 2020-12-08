@@ -1,6 +1,11 @@
 import * as React from 'react';
 import { act, create as createTestRenderer } from 'react-test-renderer';
-import { MemoryRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import {
+  MemoryRouter as Router,
+  Routes,
+  Route,
+  Link
+} from '@thinman/react-router-dom';
 
 describe('Link href', () => {
   describe('absolute', () => {

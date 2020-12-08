@@ -1,6 +1,11 @@
 import * as React from 'react';
 import { create as createTestRenderer } from 'react-test-renderer';
-import { MemoryRouter as Router, Routes, Route, useHref } from 'react-router';
+import {
+  MemoryRouter as Router,
+  Routes,
+  Route,
+  useHref
+} from '@thinman/react-router';
 
 describe('useHref under a <Routes basename>', () => {
   describe('to a child route', () => {

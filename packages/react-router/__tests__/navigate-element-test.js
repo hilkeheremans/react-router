@@ -1,7 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import { MemoryRouter as Router, Navigate, Routes, Route } from 'react-router';
+import {
+  MemoryRouter as Router,
+  Navigate,
+  Routes,
+  Route
+} from '@thinman/react-router';
 
 describe('navigate using an element', () => {
   let node;

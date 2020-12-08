@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   useParams
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('<Routes> with a basename', () => {
   function User() {

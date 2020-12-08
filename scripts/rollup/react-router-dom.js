@@ -23,7 +23,13 @@ export default function() {
         format: 'esm',
         sourcemap: !PRETTY
       },
-      external: ['history', 'prop-types', 'react', 'react-dom', 'react-router'],
+      external: [
+        'history',
+        'prop-types',
+        'react',
+        'react-dom',
+        '@thinman/react-router'
+      ],
       plugins: [
         tsc(),
         babel({
@@ -58,7 +64,7 @@ export default function() {
         format: 'esm',
         sourcemap: !PRETTY
       },
-      external: ['history', 'prop-types', 'react', 'react-router'],
+      external: ['history', 'prop-types', 'react', '@thinman/react-router'],
       plugins: [
         tsc(),
         babel({
@@ -77,7 +83,7 @@ export default function() {
         format: 'esm',
         sourcemap: !PRETTY
       },
-      external: ['history', 'react', 'react-router'],
+      external: ['history', 'react', '@thinman/react-router'],
       plugins: [
         tsc(),
         babel({
@@ -126,11 +132,11 @@ export default function() {
         globals: {
           history: 'HistoryLibrary',
           react: 'React',
-          'react-router': 'ReactRouter'
+          '@thinman/react-router': 'ReactRouter'
         },
         name: 'ReactRouterDOM'
       },
-      external: ['history', 'react', 'react-router'],
+      external: ['history', 'react', '@thinman/react-router'],
       plugins: [
         tsc(),
         babel({
@@ -156,11 +162,11 @@ export default function() {
         globals: {
           history: 'HistoryLibrary',
           react: 'React',
-          'react-router': 'ReactRouter'
+          '@thinman/react-router': 'ReactRouter'
         },
         name: 'ReactRouterDOM'
       },
-      external: ['history', 'react', 'react-router'],
+      external: ['history', 'react', '@thinman/react-router'],
       plugins: [
         tsc(),
         babel({
@@ -208,7 +214,7 @@ export default function() {
         'prop-types',
         'react',
         'react-dom/server',
-        'react-router-dom'
+        '@thinman/react-router-dom'
       ],
       plugins: [
         tsc(),

@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
   useNavigate
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('useNavigate', () => {
   it('returns the navigate function', () => {

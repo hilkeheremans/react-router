@@ -6,7 +6,7 @@ import {
   NativeRouter as Router,
   Routes,
   Route
-} from 'react-router-native';
+} from '@thinman/react-router-native';
 
 import { press } from './utils.js';
 

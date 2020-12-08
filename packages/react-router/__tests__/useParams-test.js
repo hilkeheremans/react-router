@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   useParams
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('useParams', () => {
   describe("when the route isn't matched", () => {
@@ -67,7 +67,7 @@ describe('useParams', () => {
 
       expect(typeof params).toBe('object');
       expect(params).toMatchObject({
-        slug: 'react-router'
+        slug: '@thinman/react-router'
       });
     });
 
@@ -102,7 +102,7 @@ describe('useParams', () => {
         expect(typeof params).toBe('object');
         expect(params).toMatchObject({
           username: 'mjackson',
-          course: 'react-router'
+          course: '@thinman/react-router'
         });
       });
     });

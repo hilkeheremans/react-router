@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
   NavLink
-} from 'react-router-dom';
+} from '@thinman/react-router-dom';
 
 describe('NavLink', () => {
   describe('when it does not match', () => {

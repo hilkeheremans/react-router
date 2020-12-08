@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import { Router, Routes, Route, useNavigate } from 'react-router';
+import { Router, Routes, Route, useNavigate } from '@thinman/react-router';
 
 function createMockHistory(initialLocation) {
   return {

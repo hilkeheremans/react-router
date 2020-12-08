@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { create as createTestRenderer } from 'react-test-renderer';
 import { createMemoryHistory } from 'history';
-import { Router } from 'react-router';
+import { Router } from '@thinman/react-router';
 
 describe('A <Router>', () => {
   let consoleError;

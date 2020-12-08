@@ -7,7 +7,7 @@ import {
   Route,
   useParams,
   useRoutes
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('route matching', () => {
   describe('using a route config object', () => {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import { Router, Routes, Route, Link } from 'react-router-dom';
+import { Router, Routes, Route, Link } from '@thinman/react-router-dom';
 
 function createHref({ pathname = '/', search = '', hash = '' }) {
   return pathname + search + hash;

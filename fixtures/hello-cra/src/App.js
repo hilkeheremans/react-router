@@ -7,7 +7,7 @@ import {
   Link,
   Outlet,
   useParams
-} from 'react-router-dom';
+} from '@thinman/react-router-dom';
 
 function Home() {
   return (

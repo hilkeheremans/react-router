@@ -1,6 +1,11 @@
 import * as React from 'react';
 import { create as createTestRenderer } from 'react-test-renderer';
-import { MemoryRouter as Router, Routes, Route, useOutlet } from 'react-router';
+import {
+  MemoryRouter as Router,
+  Routes,
+  Route,
+  useOutlet
+} from '@thinman/react-router';
 
 describe('useOutlet', () => {
   describe('when there is no child route', () => {

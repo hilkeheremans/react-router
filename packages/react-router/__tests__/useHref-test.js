@@ -6,7 +6,7 @@ import {
   Route,
   Outlet,
   useHref
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('useHref', () => {
   describe('to a child route', () => {

@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
   useRouteMatch
-} from 'react-router';
+} from '@thinman/react-router';
 
 describe('useRouteMatch', () => {
   describe('when the to value matches the current URL', () => {

@@ -119,7 +119,7 @@ Now you can use React Router anywhere in your app! For a simple example, open `s
 
 ```diff
 import React from 'react';
-+ import { Routes, Route, Link } from 'react-router-dom';
++ import { Routes, Route, Link } from '@thinman/react-router-dom';
 import './App.css';
 
 function App() {
@@ -219,7 +219,7 @@ Go to the `index.js` file in your project and import the necessary functions fro
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from '@thinman/react-router-dom';
 import App from './App.js';
 ```
 
@@ -251,7 +251,7 @@ Now that React and React Router are set up, create your app component and a few 
 ```js
 // App.js
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link } from '@thinman/react-router-dom';
 ```
 
 Define your app and route components:
@@ -322,7 +322,7 @@ $ npm install history@5 react-router-dom@6
 Then, somewhere in your code (probably towards the root of your React component tree) you'll want to `import` the pieces you need from `react-router-dom`.
 
 ```js
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from '@thinman/react-router-dom';
 
 function App() {
   return (

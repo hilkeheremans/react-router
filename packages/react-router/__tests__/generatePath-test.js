@@ -1,4 +1,4 @@
-import { generatePath } from 'react-router';
+import { generatePath } from '@thinman/react-router';
 
 describe('generatePath', () => {
   describe('with no params', () => {

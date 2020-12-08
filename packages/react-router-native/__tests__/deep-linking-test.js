@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   useDeepLinking
-} from 'react-router-native';
+} from '@thinman/react-router-native';
 
 import { MockEvent, mockPromiseThatResolvesImmediatelyWith } from './utils.js';
 

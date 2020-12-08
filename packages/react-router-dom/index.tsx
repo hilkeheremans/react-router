@@ -32,7 +32,7 @@ import {
   matchRoutes,
   matchPath,
   resolvePath
-} from 'react-router';
+} from '@thinman/react-router';
 
 function warning(cond: boolean, message: string): void {
   if (!cond) {

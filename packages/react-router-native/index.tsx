@@ -32,7 +32,7 @@ import {
   useResolvedPath,
   useRoutes,
   useRouteMatch
-} from 'react-router';
+} from '@thinman/react-router';
 import { State, To } from 'history';
 import URLSearchParams from '@ungap/url-search-params';
 

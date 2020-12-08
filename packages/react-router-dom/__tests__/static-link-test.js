@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOMServer from 'react-dom/server';
-import { Link } from 'react-router-dom';
+import { Link } from '@thinman/react-router-dom';
 import { StaticRouter as Router } from 'react-router-dom/server';
 
 describe('A <StaticRouter>', () => {
