@@ -377,6 +377,39 @@ export function useMatch(pattern: PathPattern): PathMatch | null {
   return matchPath(pattern, location.pathname);
 }
 
+/**
+ *
+ */
+export function useRouteMatch(to: string, basename = '', caseSensitive = false) {
+  let {
+    params: parentParams,
+    pathname: parentPathname
+  } = React.useContext(RouteContext);
+  basename = basename ? joinPaths([parentPathname, basename]) : parentPathname;
+  let location = useLocation();
+  const matches = React.useMemo(() => matchRoutes([{
+    path: to,
+    element: null,
+    children: undefined,
+    caseSensitive
+  }], location, basename), [to, location, basename, caseSensitive]);
+  return React.useMemo(
+    () => {
+      if (!matches || !matches[0]) {
+        return null;
+      }
+      const { pathname, params } = matches[0];
+
+      return {
+        params: readOnly({ ...parentParams, ...params }),
+        pathname: joinPaths([basename, pathname])
+      };
+    },
+    [basename, matches, parentParams]
+  );
+}
+
+
 type PathPattern =
   | string
   | { path: string; caseSensitive?: boolean; end?: boolean };
