@@ -108,7 +108,7 @@ async function run() {
     // 4. Update react-router-dom version + react-router dep
     await updatePackageConfig('react-router-dom', config => {
       config.version = version;
-      config.dependencies['react-router'] = version;
+      config.dependencies['@thinman/react-router'] = version;
     });
     console.log(
       chalk.green(`  Updated react-router-dom to version ${version}`)
@@ -117,7 +117,7 @@ async function run() {
     // 5. Update react-router-native version + react-router dep
     await updatePackageConfig('react-router-native', config => {
       config.version = version;
-      config.dependencies['react-router'] = version;
+      config.dependencies['@thinman/react-router'] = version;
     });
     console.log(
       chalk.green(`  Updated react-router-native to version ${version}`)
