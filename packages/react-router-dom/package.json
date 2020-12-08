@@ -11,7 +11,8 @@
   "unpkg": "umd/react-router-dom.production.min.js",
   "dependencies": {
     "prop-types": "^15.7.2",
-    "@thinman/react-router": "6.0.0-beta.0"
+    "@thinman/react-router": "6.0.0-beta.0",
+    "react-router": "6.0.0-beta.0"
   },
   "peerDependencies": {
     "history": ">=5",
