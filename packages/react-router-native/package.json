@@ -10,8 +10,7 @@
   "dependencies": {
     "@ungap/url-search-params": "^0.1.4",
     "prop-types": "^15.7.2",
-    "@thinman/react-router": "6.0.0-beta.0",
-    "react-router": "6.0.0-beta.0b"
+    "@thinman/react-router": "*"
   },
   "peerDependencies": {
     "history": ">=5",
