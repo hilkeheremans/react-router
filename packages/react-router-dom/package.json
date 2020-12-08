@@ -1,6 +1,6 @@
 {
   "name": "@thinman/react-router-dom",
-  "version": "6.0.0-beta.0b",
+  "version": "6.0.0-beta.0c",
   "author": "React Training <hello@reacttraining.com>",
   "description": "Declarative routing for React web applications",
   "repository": "ReactTraining/react-router",
@@ -11,7 +11,8 @@
   "unpkg": "umd/react-router-dom.production.min.js",
   "dependencies": {
     "prop-types": "^15.7.2",
-    "@thinman/react-router": "*"
+    "@thinman/react-router": "*",
+    "react-router": "6.0.0-beta.0c"
   },
   "peerDependencies": {
     "history": ">=5",
